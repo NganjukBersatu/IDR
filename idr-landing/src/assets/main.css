@@ -281,3 +281,8 @@ h1,h2,h3{overflow-wrap:break-word}
 @media(max-width:600px){.g4{grid-template-columns:1fr}.cmp th,.cmp td{padding:14px 16px}.sol{padding:20px}.tabs{justify-content:flex-start;margin-left:-18px;margin-right:-18px;padding:0 18px}.fv{padding:20px}.tags{gap:6px}.cta .btn{flex:1 1 100%}.apa-g{grid-template-columns:1fr!important}}
 .menu a.router-link-exact-active{font-weight:800;border-radius:0;box-shadow:inset 0 -3px 0 var(--k)}
 @media(max-width:900px){.menu a.router-link-exact-active{box-shadow:none;background:var(--y);border-radius:10px}}
+.biz{display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;cursor:grab;padding-right:40px;-webkit-overflow-scrolling:touch;-webkit-mask-image:linear-gradient(to right,#000 calc(100% - 36px),transparent);mask-image:linear-gradient(to right,#000 calc(100% - 36px),transparent)}
+.biz.has-left{-webkit-mask-image:linear-gradient(to right,transparent,#000 36px,#000 calc(100% - 36px),transparent);mask-image:linear-gradient(to right,transparent,#000 36px,#000 calc(100% - 36px),transparent)}
+.biz::-webkit-scrollbar{display:none}
+.biz button{flex:none;white-space:nowrap}
+.biz.drag{cursor:grabbing;user-select:none}

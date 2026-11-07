@@ -31,7 +31,7 @@ const rp = (v) => (v === 0 ? 'Rp 0' : 'Rp ' + v.toLocaleString('id-ID'))
     </div>
 
     <div class="note">
-      <span><Icon name="gift" />Gratis 14 hari semua fitur Bisnis</span>
+      <span><Icon name="gift" />Konsultasi gratis sebelum berlangganan</span>
       <span><Icon name="card" />Tanpa kartu kredit</span>
       <span><Icon name="shield" />Batal kapan saja</span>
     </div>

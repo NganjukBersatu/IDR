@@ -1,6 +1,7 @@
 <script setup>
 import { ref } from 'vue'
 import Icon from './Icon.vue'
+import logo from '../assets/logo.png'
 
 const open = ref(false)
 const links = [
