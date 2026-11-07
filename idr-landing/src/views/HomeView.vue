@@ -5,6 +5,7 @@ import SolutionTabs from "../components/SolutionTabs.vue";
 import PricingPlans from "../components/PricingPlans.vue";
 import FaqList from "../components/FaqList.vue";
 import { features, testimonials } from "../data/home";
+import logo from '../assets/logo.png'
 
 const orders = [
   ["Meja 4 · Kopi Susu ×2", "Diproses"],
@@ -131,10 +132,10 @@ const apa = [
           ><span>Pelanggan</span><span>Karyawan</span><span>Order online</span>
         </div>
         <div class="cta">
-          <RouterLink class="btn" to="/kontak"
-            >Coba Gratis 14 Hari <Icon name="arrow"
+          <RouterLink class="btn" to="/harga"
+            >Cek harga<Icon name="arrow"
           /></RouterLink>
-          <RouterLink class="btn o" to="/kontak">Jadwalkan Demo</RouterLink>
+          <RouterLink class="btn o" to="/kontak">Konsultasi</RouterLink>
         </div>
         <div class="checks">
           <span><Icon name="check" />Setup 5 menit</span>
@@ -456,13 +457,13 @@ const apa = [
   <section>
     <div class="wrap">
       <div class="ctab">
-        <h2>Mulai IDR sekarang, gratis!</h2>
+        <h2>Mulai konsultasi sekarang, gratis!</h2>
         <p class="lead">
-          Coba semua fitur paket Bisnis selama 14 hari, tanpa kartu kredit.
+          Dari kasir, stok, sampai laporan, kami bantu atur semuanya agar usahamu lebih rapi dan siap bertumbuh. 
         </p>
         <div class="cta" style="justify-content: center">
           <RouterLink class="btn y" to="/kontak"
-            >Coba Gratis 14 Hari <Icon name="arrow"
+            >Konsultasi <Icon name="arrow"
           /></RouterLink>
           <RouterLink class="btn w" to="/harga">Lihat paket harga</RouterLink>
         </div>
