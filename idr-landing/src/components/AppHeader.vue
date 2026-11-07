@@ -25,7 +25,7 @@ const links = [
         <span class="hd">@idrofficialcorp</span>
         <a href="https://instagram.com/idrofficialcorp" target="_blank" rel="noopener" aria-label="Instagram"><Icon name="ig" /></a>
         <a href="https://tiktok.com/@idrofficialcorp" target="_blank" rel="noopener" aria-label="TikTok"><Icon name="tt" f /></a>
-        <a href="https://x.com/idrofficialcorp" target="_blank" rel="noopener" aria-label="X / Twitter"><Icon name="xx" f /></a>
+        <a href="https://x.com/idrofficialcrop" target="_blank" rel="noopener" aria-label="X / Twitter"><Icon name="xx" f /></a>
       </div>
     </div>
   </div>
